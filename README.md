@@ -30,6 +30,7 @@ This predictive model supports **personalized care**, **early intervention**, an
 ---
 
 ## 📁 Project Structure
+
 glucose-predictor-ml/
 ├── data/
 │   └── glucose_data.csv             # Dataset with patient records
