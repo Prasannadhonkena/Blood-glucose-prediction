@@ -31,17 +31,19 @@ This predictive model supports **personalized care**, **early intervention**, an
 
 ## 📁 Project Structure
 
-glucose-predictor-ml/
-├── data/
-│   └── glucose_data.csv             # Dataset with patient records
-├── models/
-│   └── glucose_model.pkl            # Trained ML model
-├── app/
-│   ├── predictor.py                 # Prediction logic
-│   ├── utils.py                     # Helper functions
-│   └── web_app.py                   # Streamlit or Flask web app
-├── notebooks/
-│   └── EDA_and_Modeling.ipynb       # Exploratory Data Analysis and training
-├── README.md
-├── requirements.txt                 # Python dependencies
-└── LICENSE
+Blood-glucose-prediction/
+│
+├── Dataset/
+│   └── diabetes.csv                   # Dataset used for training the model
+│
+├── static/
+│   └── styles.css                     # Styling for the web app
+│
+├── templates/
+│   ├── index.html                     # Home page with input form
+│   └── result.html                    # Page displaying        prediction results
+│
+├── app.py                             # Main Flask backend application
+├── glucose_model.pkl                  # Trained Machine Learning model
+├── README.md                          # Project documentation
+└── requirements.txt                   # Python dependencies
