@@ -6,9 +6,6 @@ This project is a **Flask-based machine learning web application** that predicts
 
 This predictive model supports **personalized care**, **early intervention**, and **optimized treatment planning** in diabetes management.
 
-Access the app locally at:  
-🔗 **http://127.0.0.1:5001**
-
 ---
 
 ## 🚀 Features
